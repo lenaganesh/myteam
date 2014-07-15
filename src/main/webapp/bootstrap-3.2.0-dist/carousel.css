@@ -53,16 +53,25 @@ body {
   height: 500px;
   background-color: #777;
 }
-.carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
+.carousel-inner > .item {
+ /* position: absolute;*/
+  top:2px;
   left: 0;
   min-width: 100%;
   height: 500px;
 
 }
-
-
+.carousel-center {
+  /*position: absolute;*/
+  top: 50px;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+text-align:center;
+}
+.div-text-center {
+	text-align:center;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
